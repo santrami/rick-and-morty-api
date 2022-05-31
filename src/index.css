@@ -7,6 +7,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.card:hover{
+  transform: scale(105%);
+  transition: 0.2s linear;
+  cursor:pointer;
+}
+
+.card{
+    border: none!important;
+    max-width: min-content;
+    background-color: #69c8ec00!important;
+}
+img:hover{  
+  border-radius: 20% 0!important;
+  transition: 0.2s;
+}
+label{
+  margin:10px!important;      
+}
+
+img:not(:hover){  
+  border-radius: 0%!important;
+  transition: 0.2s;
+}
+.input-group {
+  width: 50%!important;
+}
+
+.container{
+  background-color: #69c8eccc;
+  padding-top: 50px;
+  width: 120%!important;
+  border-radius: 20px;
+}
+
+body{
+  background: url('https://wallpaperaccess.com/full/831749.png'), no-repeat;
+  background-attachment: fixed;  
+}
+
+.card:not(:hover){  
+  transition: 0.2s linear;
+}
+.card img:hover { 
+  box-shadow: -10px -5px 15px #555 !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
