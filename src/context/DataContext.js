@@ -16,8 +16,7 @@ export const DataProvider = ({ children }) => {
     console.log(total)      
     if(limit<selectedCharacters.length){
         setOffset(limit)
-        setLimit(limit+12)
-        console.log(limit,offset) 
+        setLimit(limit+12)        
     }        
 }
 
@@ -25,8 +24,7 @@ function showPrevCharacters(){
     if(offset>0){            
         setOffset(offset-12)
         setLimit(offset)
-    }        
-    console.log(selectedCharacters.length)
+    }            
 }
 
   useEffect(() => {       
